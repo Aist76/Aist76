@@ -36,59 +36,95 @@ I am a Full Stack Developer <img src="https://media.giphy.com/media/WUlplcMpOCEm
 ---
 
 ### :hammer_and_wrench: Languages and Tools :
-<div align="center">
-  <img src="./icons/HTML.svg" title="HTML" width="40" />
-  <img src="./icons/CSS.svg" title="CSS" width="40" />
-  <img src="./icons/JavaScript.svg" title="JavaScript" width="40" />
-  <img src="./icons/TypeScript.svg" title="TypeScript" width="40" />
-  <img src="./icons/React.svg" title="React" width="40" />
-  <img src="./icons/Redux-Toolkit.svg" title="Redux Toolkit" width="40" />
-  <img src="./icons/React Router Dom.svg" title="React Router DOM" width="40" />
-  <img src="./icons/React Hook Form.svg" title="React Hook Form" width="40" />
-  <img src="./icons/Styled Components.svg" title="Styled Components" width="40" />
-  <img src="./icons/Material UI.svg" title="Material UI" width="40" />
-  <img src="./icons/SASS.svg" title="SASS" width="40" />
-  <img src="./icons/Figma.svg" title="Figma" width="40" />
-  <img src="./icons/Node JS.svg" title="Node.js" width="40" />
-  <img src="./icons/Nest JS.svg" title="NestJS" width="40" />
-  <img src="./icons/Express.svg" title="Express" width="40" />
-  <img src="./icons/GraphQL.svg" title="GraphQL" width="40" />
-  <img src="./icons/REST API.svg" title="REST API" width="40" />
-  <img src="./icons/Microservices.svg" title="Microservices" width="40" />
-  <img src="./icons/Hexagonal Architecture.svg" title="Hexagonal Architecture" width="40" />
-  <img src="./icons/Raw SQL.svg" title="Raw SQL" width="40" />
-  <img src="./icons/PostgreSQL.svg" title="PostgreSQL" width="40" />
-  <img src="./icons/MongoDB.svg" title="MongoDB" width="40" />
-  <img src="./icons/Mongoose.svg" title="Mongoose" width="40" />
-  <img src="./icons/TypeORM.svg" title="TypeORM" width="40" />
-  <img src="./icons/Docker.svg" title="Docker" width="40" />
-  <img src="./icons/Kubernetes.svg" title="Kubernetes" width="40" />
-  <img src="./icons/Jenkins.svg" title="Jenkins" width="40" />
-  <img src="./icons/AWS.svg" title="AWS" width="40" />
-  <img src="./icons/Jest.svg" title="Jest" width="40" />
-  <img src="./icons/Unit tests.svg" title="Unit Tests" width="40" />
-  <img src="./icons/ESLint.svg" title="ESLint" width="40" />
-  <img src="./icons/Prettier.svg" title="Prettier" width="40" />
-  <img src="./icons/Storybook.svg" title="Storybook" width="40" />
-  <img src="./icons/reCAPTCHA.svg" title="reCAPTCHA" width="40" />
-  <img src="./icons/Zod.svg" title="Zod" width="40" />
-  <img src="./icons/Formik.svg" title="Formik" width="40" />
-  <img src="./icons/OAuth2.svg" title="OAuth2" width="40" />
-  <img src="./icons/RBAC.svg" title="RBAC" width="40" />
-  <img src="./icons/ABAC.svg" title="ABAC" width="40" />
-  <img src="./icons/Git.svg" title="Git" width="40" />
-  <img src="./icons/GitHub.svg" title="GitHub" width="40" />
-  <img src="./icons/Swagger.svg" title="Swagger" width="40" />
-  <img src="./icons/Pug.svg" title="Pug" width="40" />
-  <img src="./icons/Rabbitmq.svg" title="RabbitMQ" width="40" />
-  <img src="./icons/WebSocket.svg" title="WebSocket" width="40" />
-  <img src="./icons/SocketIO.svg" title="Socket.IO" width="40" />
-  <img src="./icons/PayPal.svg" title="PayPal" width="40" />
-  <img src="./icons/Redux-Saga.svg" title="Redux-Saga" width="40" />
-  <img src="./icons/RTK Query.svg" title="RTK Query" width="40" />
-  <img src="./icons/Apollo.svg" title="Apollo" width="40" />
-  <img src="./icons/Radix UI.svg" title="Radix UI" width="40" />
-</div>
+## 🧱 Frontend
+
+<p align="left">
+  <img src="./icons/HTML.svg" title="HTML" height="32" />
+  <img src="./icons/CSS.svg" title="CSS" height="32" />
+  <img src="./icons/JavaScript.svg" title="JavaScript" height="32" />
+  <img src="./icons/TypeScript.svg" title="TypeScript" height="32" />
+  <img src="./icons/React.svg" title="React" height="32" />
+  <img src="./icons/Redux-Toolkit.svg" title="Redux Toolkit" height="32" />
+  <img src="./icons/Redux-Saga.svg" title="Redux-Saga" height="32" />
+  <img src="./icons/RTK Query.svg" title="RTK Query" height="32" />
+  <img src="./icons/React Router Dom.svg" title="React Router DOM" height="32" />
+  <img src="./icons/Radix UI.svg" title="Radix UI" height="32" />
+  <img src="./icons/Styled Components.svg" title="Styled Components" height="32" />
+  <img src="./icons/SASS.svg" title="SASS" height="32" />
+  <img src="./icons/Material UI.svg" title="Material UI" height="32" />
+  <img src="./icons/React Hook Form.svg" title="React Hook Form" height="32" />
+  <img src="./icons/Formik.svg" title="Formik" height="32" />
+  <img src="./icons/Zod.svg" title="Zod" height="32" />
+  <img src="./icons/reCAPTCHA.svg" title="reCAPTCHA" height="32" />
+  <img src="./icons/Storybook.svg" title="Storybook" height="32" />
+  <img src="./icons/Figma.svg" title="Figma" height="32" />
+</p>
+
+---
+
+## 🔧 Backend
+
+<p align="left">
+  <img src="./icons/Node JS.svg" title="Node.js" height="32" />
+  <img src="./icons/Nest JS.svg" title="NestJS" height="32" />
+  <img src="./icons/Express.svg" title="Express" height="32" />
+  <img src="./icons/GraphQL.svg" title="GraphQL" height="32" />
+  <img src="./icons/REST API.svg" title="REST API" height="32" />
+  <img src="./icons/Swagger.svg" title="Swagger" height="32" />
+  <img src="./icons/Microservices.svg" title="Microservices" height="32" />
+  <img src="./icons/Hexagonal Architecture.svg" title="Hexagonal Architecture" height="32" />
+  <img src="./icons/OAuth2.svg" title="OAuth2" height="32" />
+  <img src="./icons/RBAC.svg" title="RBAC" height="32" />
+  <img src="./icons/ABAC.svg" title="ABAC" height="32" />
+  <img src="./icons/Jest.svg" title="Jest" height="32" />
+  <img src="./icons/Unit tests.svg" title="Unit Tests" height="32" />
+</p>
+
+---
+
+## 🗄️ Databases
+
+<p align="left">
+  <img src="./icons/PostgreSQL.svg" title="PostgreSQL" height="32" />
+  <img src="./icons/Raw SQL.svg" title="Raw SQL" height="32" />
+  <img src="./icons/MongoDB.svg" title="MongoDB" height="32" />
+  <img src="./icons/Mongoose.svg" title="Mongoose" height="32" />
+  <img src="./icons/TypeORM.svg" title="TypeORM" height="32" />
+</p>
+
+---
+
+## ⚙️ DevOps & Cloud
+
+<p align="left">
+  <img src="./icons/Docker.svg" title="Docker" height="32" />
+  <img src="./icons/Kubernetes.svg" title="Kubernetes" height="32" />
+  <img src="./icons/Jenkins.svg" title="Jenkins" height="32" />
+  <img src="./icons/AWS.svg" title="AWS" height="32" />
+</p>
+
+---
+
+## 📡 Communication & Tools
+
+<p align="left">
+  <img src="./icons/WebSocket.svg" title="WebSocket" height="32" />
+  <img src="./icons/SocketIO.svg" title="Socket.IO" height="32" />
+  <img src="./icons/Rabbitmq.svg" title="RabbitMQ" height="32" />
+  <img src="./icons/PayPal.svg" title="PayPal" height="32" />
+</p>
+
+---
+
+## ✨ Code Quality & Auth
+
+<p align="left">
+  <img src="./icons/ESLint.svg" title="ESLint" height="32" />
+  <img src="./icons/Prettier.svg" title="Prettier" height="32" />
+  <img src="./icons/Git.svg" title="Git" height="32" />
+  <img src="./icons/GitHub.svg" title="GitHub" height="32" />
+</p>
+
 
 <!--
 **Aist76/Aist76** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
