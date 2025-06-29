@@ -1,1 +1,99 @@
-<svg viewBox="0 0 630 630" xmlns="http://www.w3.org/2000/svg" width="2500" height="2500"><path d="M0 0h630v630H0z" fill="#f7df1e"/><path d="M423.2 492.19c12.69 20.72 29.2 35.95 58.4 35.95 24.53 0 40.2-12.26 40.2-29.2 0-20.3-16.1-27.49-43.1-39.3l-14.8-6.35c-42.72-18.2-71.1-41-71.1-89.2 0-44.4 33.83-78.2 86.7-78.2 37.64 0 64.7 13.1 84.2 47.4l-46.1 29.6c-10.15-18.2-21.1-25.37-38.1-25.37-17.34 0-28.33 11-28.33 25.37 0 17.76 11 24.95 36.4 35.95l14.8 6.34c50.3 21.57 78.7 43.56 78.7 93 0 53.3-41.87 82.5-98.1 82.5-54.98 0-90.5-26.2-107.88-60.54zm-209.13 5.13c9.3 16.5 17.76 30.45 38.1 30.45 19.45 0 31.72-7.61 31.72-37.2v-201.3h59.2v202.1c0 61.3-35.94 89.2-88.4 89.2-47.4 0-74.85-24.53-88.81-54.075z"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" id="js-icon">
+      <defs>
+        <style>
+          @keyframes stopper-ani {
+            50% {
+              transform: rotate(0);
+            }
+            60% {
+              transform: rotate(-90deg);
+            }
+            90% {
+              transform: rotate(-90deg);
+            }
+            100% {
+              transform: rotate(0);
+            }
+          }
+          @keyframes pool-ani {
+            50% {
+              transform: scale(0);
+            }
+            100% {
+              transform: scale(1);
+            }
+          }
+          @keyframes wave-ani {
+            0% {
+              x: 0px;
+            }
+            100% {
+              x: -100px;
+            }
+          }
+
+          @keyframes fill-ani {
+            50% {
+              y: 18px;
+            }
+            100% {
+              y: 80px;
+            }
+          }
+
+          #js-icon {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 100px;
+            height: 100px;
+          }
+          .js-cup {
+            fill: transparent;
+            stroke: #f7df1f;
+          }
+          .js-text {
+            font-size: 30px;
+            font-weight: bold;
+          }
+          .js-stopper {
+            transform-origin: 75px 65px;
+            animation: stopper-ani 5s infinite;
+          }
+          .js-pool {
+            transform: scale(0);
+            transform-origin: 75px 75px;
+            animation: pool-ani 5s infinite;
+          }
+          .wave-box {
+            animation: wave-ani 5s infinite linear, fill-ani 5s infinite alternate;
+          }
+        </style>
+        <pattern id="wave" width="0.1" height="1">
+          <path
+            fill=" #f7df1f"
+            d="M 0 10 C 3 12, 5 15, 14 10 C 17 9, 20 5, 30 10 L 30 60 L 0 60 z"
+          />
+        </pattern>
+        <mask id="wave-mask">
+          <rect x="25" y="25" width="50" height="50" fill="white"></rect>
+        </mask>
+      </defs>
+      <ellipse class="js-pool" cx="75" cy="75" rx="25" ry="10" fill="#f7df1f"></ellipse>
+      <path class="js-cup" d="M 25 25 L 25 75 L 75 75 L 75 25 "></path>
+      <g class="js-stopper">
+        <rect x="75" y="65" width="1" height="5"></rect>
+        <rect x="75" y="70" width="3" height="5"></rect>
+      </g>
+      <rect
+        class="wave-box"
+        mask="url(#wave-mask)"
+        fill="url(#wave)"
+        x="0"
+        y="80"
+        width="300"
+        height="100"
+      ></rect>
+      <text class="js-text" x="45" y="70" fill="white">JS</text>
+    </svg>
